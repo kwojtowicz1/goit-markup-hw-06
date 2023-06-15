@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/styles.css"/> 
+  </head>
+  <body>
+    <button data-modal-open>open</button>
+    <header class="headers">
+      <div class="container headers-section">
+      <a class="brand-link" href="./index.html">
+      Web<span class="brand-h">Studio</span>
+      </a>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item">
+          <a href="./index.html">Agencja</a>
+          <div class="webzone"></div>
+          </li>
+          <li class="menu-item">
+          <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-item">
+          <a href="#">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <ul class="menu-links">
+          <li class="icon">  
+            <svg width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+          </li>
+          <li class="link-item">
+          <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="icon">
+            <svg width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+          </li>
+          <li class="link-item">
+          <a class="contact-link" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+          </ul>
+      </div>
+        </div>
+      </header>
+      <main>
+      <!-- HERO -->
+      <section class="section box teamphoto">
+        <div class="container hero">
+        <h1 class="main-text">EFEKTYWNE ROZWIĄZANIA
+           DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="order-link">Zamów usługę</button>
+        </div>
+      </section>
+      <!-- IKONY I TEKST -->
+      <section class="section box">
+        <section class="container">
+          <ul class="icons-clients">
+            <li class="icon-index">
+              <svg width="270" height="120">
+                <use href="./images/icons.svg#icon-antenna"></use>
+              </svg>  
+            </li>
+            <li class="icon-index">
+              <svg width="270" height="120">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg> 
+            </li>
+            <li class="icon-index">
+              <svg width="270" height="120">
+                <use href="./images/icons.svg#icon-diagram"></use>
+              </svg>  
+            </li>
+            <li class="icon-index">
+              <svg width="270" height="120">
+                <use href="./images/icons.svg#icon-astronaut"></use>
+              </svg>  
+            </li>
+            </ul>
+        </section>   
+      </section>     
+      <section class="section box">
+        <div class="container">
+          <ul class="container-text">
+            <li class="text-box">
+              <h6 class="content-title">LOREM IPSUM</h6>
+              <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="text-box">
+              <h6 class="content-title">LOREM IPSUM</h6>
+              <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="text-box">
+              <h6 class="content-title">LOREM IPSUM</h6>
+              <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="text-box">
+              <h6 class="content-title">LOREM IPSUM</h6>
+              <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+          </div>
+      </section>
+      <!-- ZDJECIA CZYM SIE ZAJMUJEMY -->
+      <section class="section box">
+        <div class="container">
+          <h2 class="subject-wwd">Czym sie zajmujemy</h2>
+          <ul class="container-img">
+            <li class="description-img">
+              <img
+                src="./images/image-2.jpg"
+                alt="Programista uzywa klawiatury do pisania kodu ze schematu"
+                width="370"
+                height="294"
+              />
+              <p class="job-description">APLIKACJE KOMPUTEROWE</p>
+            </li>
+            <li class="description-img">
+              <img
+                src="./images/image-3.jpg"
+                alt="Programista koduje na komputerze wersje mobilną aplikacji sprawdzając efekt na trzymanym telefonie"
+                width="370"
+                height="294"
+              />
+              <p class="job-description">APLIKACJE MOBILNE</p>
+            </li>
+            <li class="description-img">
+              <img
+                src="./images/image-4.jpg"
+                alt="Programista koduje kolory uzywajac wzornika kolorow na tablecie"
+                width="370"
+                height="294"
+              />
+              <p class="job-description">ROZWIĄZANIA GRAFICZNE</p>
+            </li>
+          </ul>
+          </div>
+      </section>
+      <!-- ZESPOL -->
+      <section class="section box">
+        <div class="container container-team">
+          <h2 class="section-subject">Nasz zespół</h2>
+          <ul class="container-memb">
+            <li class="shad">
+              <figure class="frame">
+                <img
+                  src="./images/image-5.jpg"
+                  alt="Członek zespołu - meżczyzna z brodą w okularach - Product Designer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption> 
+                <p class="team-name">John Doe</p>
+                <p class="team-position">Product Designer</p>
+                <div class="somedia-box">  
+                <ul class="icons">
+                  <li class="somedia">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>  
+                  </li>
+                  <li class="somedia">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>  
+                  </li>
+                  <li class="somedia">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>  
+                  </li>
+                  <li class="somedia">
+                    <svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>  
+                  </li>
+                </ul> 
+                </div> 
+                </figcaption>
+              </figure>
+              </li>
+            <li class="shad">
+              <figure class="frame">
+                <img
+                  src="./images/image-6.jpg"
+                  alt="Członek zespołu - kobieta blond w okularach - Frontend developer"
+                  width="270"
+                  height="260"
+                />
+                <div class="somedia-box">
+                  <figcaption> 
+                    <p class="team-name">John Doe</p>
+                    <p class="team-position">Frontend Designer</p> 
+                  <ul class="icons">
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>  
+                    </li>
+                  </ul> 
+                  </div>
+                </figcaption>
+              </figure>
+              </li>
+            <li class="shad">
+              <figure class="frame">
+                <img
+                  src="./images/image-7.jpg"
+                  alt="Członek zespołu - młody meżczyzna - Marketing"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                <p class="team-name">John Doe</p>
+                <p class="team-position">Marketing</p>
+                <div class="somedia-box">  
+                  <ul class="icons">
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>  
+                    </li>
+                  </ul> 
+                  </div> 
+                </figcaption>
+              </figure>
+            </li>
+            <li class="shad">
+              <figure class="frame">
+                <img
+                  src="./images/image-8.jpg"
+                  alt="Członek zespołu - meżczyzna z brodą w okluarach - UI Designer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption> 
+                <p class="team-name">John Doe</p>
+                <p class="team-position">UI Designer</p>
+                <div class="somedia-box"> 
+                  <ul class="icons">
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>  
+                    </li>
+                    <li class="somedia">
+                      <svg width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>  
+                    </li>
+                  </ul> 
+                  </div> 
+                </figcaption>  
+              </figure>
+              </li>
+          </ul>
+        </div>
+      </section>
+    <!-- Nasi Klienci -->
+    <section class="section box">
+      <div class="container">
+        <h2 class="clients">Nasi klienci</h2>
+        <ul class="icons-clients">
+          <li class="icon-border">
+            <svg width="170" height="92">
+              <use href="./images/icons.svg#icon-client-1"></use>
+            </svg>  
+          </li>
+          <li class="icon-border">
+            <svg width="170" height="92">
+              <use href="./images/icons.svg#icon-client-2"></use>
+            </svg>  
+          </li>
+          <li class="icon-border">
+            <svg width="170" height="92">
+              <use href="./images/icons.svg#icon-client-3"></use>
+            </svg>  
+          </li>
+          <li class="icon-border">
+            <svg width="170" height="92">
+              <use href="./images/icons.svg#icon-client-4"></use>
+            </svg>  
+          </li>
+          <li class="icon-border">
+            <svg width="170" height="92">
+              <use href="./images/icons.svg#icon-client-5"></use>
+            </svg>  
+          </li>
+          <li class="icon-border">
+            <svg width="170" height="92">
+              <use href="./images/icons.svg#icon-client-6"></use>
+            </svg>  
+          </li>
+          </ul>
+        </div>   
+    </section>      
+    </main>
+    <!-- Footer -->
+    <footer class="footers">
+      <div class="container global-footer">
+      <div class="footers-section">
+        <a class="brand-link" href="#">
+        Web<span class="brand-f">Studio</span>
+       </a>
+      <address class="footer-box">
+        <p class="address-link">m.Warszawa, Aleje Jerozolimskie 21</p>
+        <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+        <a href="tel:+48111111111" class="footer-link">+48 111 111 111</a>
+      </div>
+      </address>
+      <div class="joinus-box">
+        <p class="joinus">DOŁĄCZ DO NAS</p>
+        <ul class="icons">
+          <li class="somedia-footer">
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>  
+          </li>
+          <li class="somedia-footer">
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>  
+          </li>
+          <li class="somedia-footer">
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>  
+          </li>
+          <li class="somedia-footer">
+            <svg width="20" height="20">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>  
+          </li>
+        </ul>
+      </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+    <button type="button" class="close" data-modal-close>
+      <svg width="30" height="30">
+      <use href="./images/icons.svg#close-x"></use>
+      </svg>
+    </button>
+      </div>
+    </div>
+    <!--script js.modeal -->
+    <script src="./js/modal.js"></script>
+  </body>
+</html>    

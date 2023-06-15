@@ -1,0 +1,566 @@
+/* Zastosowanie ogólne */
+* ,
+* :before,
+* :after {
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --hover-color: #2196F3;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --footerlink-color: rgba(255, 255, 255, 0.6);
+    --backgroud-color: #2f303A;
+}
+a {
+    text-decoration: none;
+    color: var(--main-color);
+     }
+figure, li, ul, h1, h6, p {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.headers {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 24px;
+    border-bottom: 1px solid #ECECEC;
+    width: 100%;
+    }
+.headers-section {
+    display: flex;
+    align-items: center;
+}
+.footers {
+    margin: 0 auto;
+    background: var(--backgroud-color);
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}   
+.footers-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.box {
+    margin: 0 auto;
+    width: 100%;
+}
+/* Pseudoklasy etc */
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--hover-color);
+}   
+.footer-link:hover,
+.footer-link {
+    color: var(--hover-color);
+}
+.menu-item a:hover,
+.menu-item a:focus {
+    color: var(--hover-color);
+}
+.option-button:hover,
+.option-button:focus {
+    background-color: var(--hover-color);
+    color: var(--white-color);
+}
+.button-shadow:hover,
+.button-shadow:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* Zastosowanie Header */
+.brand-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--hover-color); 
+    text-decoration: none;
+    }
+.brand-h {
+    color: var(--black-color);
+}
+.brand-f {
+    color: var(--white-color);
+}
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding-left: 10px;
+    }
+.menu {
+    display: flex;
+    padding-left: 83px;
+}
+.menu-item {
+    width: 76px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.link-item {
+    padding-right: 20px;
+}
+.menu-links {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 360px;
+}
+/* Zastosowanie Main Index Hero */
+.teamphoto {
+    background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4)0%, rgba(47, 48, 58, 0.4)0%), url(../images/team.jpg);
+    background-size: cover;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 280px;
+    padding-top: 200px;
+}
+.main-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    width: 696px;
+    padding-bottom: 50px;
+}
+.order-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    cursor: pointer;
+    width: 200px;
+    height: 50px;  
+    background: var(--hover-color);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+    border-radius: 4px;
+}
+/* Zastosowanie Main Index Text content */
+.content-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.content-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.container-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+.text-box {
+    flex-basis: calc((100% - 90px) / 4);
+}
+/* Zastosowanie Main Index img */
+.subject-wwd {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+.description-img {
+    position: relative;
+    list-style-type: none;
+    margin-right: 0px;
+    height: 294px;
+}
+.description-img > .job-description {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+}
+/* Zastosowanie Main Index Team */
+.section-subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.team-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.frame {
+    background-color: var(--white-color);
+}
+.container-team {
+        background-color: #f5f4fa;
+        height: 708px;
+        padding-top: 94px;
+}
+.container-memb {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: #f5f4fa;
+    border-radius: 0px 0px 4px 4px;
+}
+.shad {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14), 0px 1px 1px rgba(0, 0 ,0 ,0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.somedia-box {
+    display: flex;
+    justify-content: center;
+}
+/* Zastosowanie Footer bez Brand Logo */
+.address-link {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    padding-top: 20px;
+    padding-bottom: 9px;
+}
+.footer-link {
+    font-size: 14px;
+    line-height: 1.17;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--footerlink-color);
+    margin-bottom: 15px;
+}
+.footer-mail {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--footerlink-color);
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+/* Zastosowanie w Main Portfolio */
+.option-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    cursor: pointer;
+    margin-right: 8px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    }
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+.project-option {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+    padding-left: 24px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.option-buttons {
+    display: flex;  
+    justify-content: center;  
+    padding-bottom: 50px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    padding: 0px;
+}
+.card-set {
+    flex-basis: calc((100% - 60px) / 3);
+}
+.frame-opt {
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+.card-set:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.webzone {
+    position: relative;
+    background-color: var(--hover-color);
+    border-radius: 2px;
+    top: 30px;
+    width: 58px;
+    height: 4px;
+    }
+.webzone::after {
+    display: blocK;
+    content: " ";
+    top: 9px;
+    left: 0;
+    }
+/* overlay portfolio */
+.animation-box {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    width: 370px;
+    height: 294px;
+}
+.overlay-card {
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    background-color: var(--hover-color);
+}
+.overlay-text {
+    position: relative;
+    display: flex;
+    color: var(--white-color);
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding: 49px 45px 49px 24px;
+    vertical-align: top;
+}
+.animation-box:hover,
+.animation-box:focus,
+.overlay-card {
+    transform: translateY(0);
+}
+/* ikony */
+.icon {
+    fill: #afb1bb;
+    cursor: pointer;
+}
+.icon:hover,
+.icon:focus {
+    fill: var(--hover-color);
+}
+.icons {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    fill: #afb1bb;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+.icons-clients {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    fill: #afb1bb;
+    cursor: pointer;
+}
+.icon-index {
+    background: #f5f4fa;
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.icon-border {
+    border: 1px solid #afb1bb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.icon-border:hover,
+.icon-border:focus {
+    fill: var(--hover-color);
+}
+/* Zastosowanie Nasi Klienci */
+.clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+/* Zastosowanie SoMe */
+.joinus {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding-bottom: 20px;
+}
+.joinus-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+.somedia-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--white-color);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+}
+.somedia-footer:hover {
+    background: var(--hover-color);
+}
+.somedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1bb;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+}
+.somedia:hover {
+    background: var(--hover-color);
+}
+.global-footer {
+    display: flex;
+}
+/* modal */
+.modal {
+    display: flex;
+    justify-content: center;
+    top: 221px;
+    left: 536px;
+    width: 528px;
+    height: 581px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0 ,0 ,0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 4px;
+    margin: 0;
+}
+.is-hidden {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0.5;
+    transform: scale(0);
+}
+.backdrop {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+   top: 0;
+   bottom: 0;
+    cursor: not-allowed;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transform: scale(1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: 1px;
+    background-color: #ffffff;
+    position: relative;
+    top: 8px;
+    left: 240px;
+    stroke: solid rgba(0, 0, 0, 0.1);
+
+}
+ 
