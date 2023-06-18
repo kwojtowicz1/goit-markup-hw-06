@@ -497,6 +497,7 @@ body {
     height: 44px;
     width: 44px;
     cursor: pointer;
+    margin-right: 10px;
 }
 .somedia-footer:hover {
     background: var(--hover-color);
@@ -510,6 +511,7 @@ body {
     height: 44px;
     width: 44px;
     cursor: pointer;
+    margin-right: 10px;
 }
 .somedia:hover {
     background: var(--hover-color);
@@ -565,7 +567,7 @@ body {
 }
 /* newsletter */
 .newsletter {
-    margin-left: 78px;
+    margin-left: 120px;
 } 
 .newsletter-text {
     display: flex;
