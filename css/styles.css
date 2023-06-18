@@ -563,4 +563,58 @@ body {
     stroke: solid rgba(0, 0, 0, 0.1);
 
 }
- 
+/* newsletter */
+.newsletter {
+    margin-left: 78px;
+} 
+.newsletter-text {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white-color);
+    letter-spacing: 0.03em;
+}
+.newsletter-box {
+    display: inline-flex;
+    padding-top: 20px;
+}
+.email-input {
+    display: flex;
+    align-items: center;
+    width: 358px;
+    height: 50px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--backgroud-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0 ,0 ,0.15);
+    padding-left: 16px;
+}
+.register-button {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 12px;
+}
+.newsletter-button {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: var(--white-color);
+    background-color: var(--hover-color);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0 ,0 ,0.15);
+    cursor: pointer;
+    padding-left: 42px;
+}
+.icon-paperplane {
+    display: flex;
+    position: absolute;
+    fill: var(--white-color);
+    margin-top: 12px;
+    margin-left: 148px;
+    visibility: visible;
+}
