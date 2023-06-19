@@ -461,6 +461,7 @@ body {
 .icon-border:hover,
 .icon-border:focus {
     fill: var(--hover-color);
+    border: 1px solid var(--hover-color);
 }
 /* Zastosowanie Nasi Klienci */
 .clients {
@@ -526,7 +527,7 @@ body {
     top: 221px;
     left: 536px;
     width: 528px;
-    height: 581px;
+    height: 700px;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0 ,0 ,0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
@@ -564,6 +565,109 @@ body {
     left: 240px;
     stroke: solid rgba(0, 0, 0, 0.1);
 
+}
+.register-area {
+    margin-right: 25px;
+}
+.form-box {
+    width: 448px;
+    margin-bottom: 28px;
+    margin-right: 1px;
+}
+.form-name {
+    text-align: center;
+    font-style: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+.form-input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+    padding-left: 42px;
+}
+.form-input:focus,
+.form-input:hover {
+    fill: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
+.personaldata-icons {
+    position: absolute;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.personaldata-icons:hover,
+.personaldata-icons:focus {
+    fill: var(--hover-color);
+}
+.textarea-input {
+    width: 448px;
+    height: 138px;
+    border-radius: 4px;
+    border-color: 1px solid rgba(33, 33, 33, 0.2);
+}
+.textarea-input:focus-within {
+    border: 1px solid var(--hover-color);
+}
+textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1%;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.checkbox-area {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 35px;
+}
+.label-checkbox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.policy-text {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+.registration-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.homepage-button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    color: var(--white-color);
+    background-color: var(--hover-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0 ,0 ,0.15);
+    cursor: pointer;
 }
 /* newsletter */
 .newsletter {
