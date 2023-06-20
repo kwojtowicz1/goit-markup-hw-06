@@ -609,6 +609,11 @@ body {
 .personaldata-icons:focus {
     fill: var(--hover-color);
 }
+.label-name > p {
+    margin-bottom: 4px;
+    letter-spacing: 1%;
+    color: var(--secondary-color);
+}
 .textarea-input {
     width: 448px;
     height: 138px;
@@ -633,6 +638,10 @@ textarea::placeholder {
     max-width: 100%;
     margin-bottom: 35px;
 }
+.checkbox-input {
+    height: 16px;
+    width: 15px;
+}
 .label-checkbox {
     display: flex;
     align-items: center;
@@ -646,7 +655,7 @@ textarea::placeholder {
     color: var(--secondary-color);
     cursor: pointer;
     margin-top: 20px;
-    padding-left: 15px;
+    padding-left: 12px;
 }
 .policy-text {
     color: var(--hover-color);
