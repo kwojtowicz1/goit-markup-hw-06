@@ -564,8 +564,9 @@ body {
     top: 8px;
     left: 240px;
     stroke: solid rgba(0, 0, 0, 0.1);
-
 }
+
+
 .register-area {
     margin-right: 25px;
 }
@@ -600,8 +601,6 @@ body {
 }
 .personaldata-icons {
     position: absolute;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 20px;
     margin-left: 15px;
 }
@@ -609,9 +608,21 @@ body {
 .personaldata-icons:focus {
     fill: var(--hover-color);
 }
+.form-input:focus {
+    outline: 1px solid var(--secondary-color);
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4 ,0.2, 1);
+}
+.form-input:focus+svg {
+    transition-property: fill;
+    fill: var(--hover-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0.2, 1);
+}
 .label-name > p {
     margin-bottom: 4px;
-    letter-spacing: 1%;
+    letter-spacing: 0.01em;
     color: var(--secondary-color);
 }
 .textarea-input {
