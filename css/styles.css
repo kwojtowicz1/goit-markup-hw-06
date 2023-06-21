@@ -562,13 +562,11 @@ body {
     background-color: #ffffff;
     position: relative;
     top: 8px;
-    left: 240px;
+    left: 480px;
     stroke: solid rgba(0, 0, 0, 0.1);
 }
-
-
 .register-area {
-    margin-right: 25px;
+    margin-right: 15px;
 }
 .form-box {
     width: 448px;
