@@ -410,7 +410,7 @@
           <div class="register-button">
             <button data-modal-open class="newsletter-button" type="submit">Zapisz się</button>
             <svg class="icon-paperplane" width="24px" height="24px">
-              <use href="./images/icons.svg#paper-plane-icon"></use>
+              <use href="./images/icons.svg#icon-paper-plane-icon"></use>
             </svg>
           </div>
         </div>
@@ -420,7 +420,7 @@
       <div class="modal">
     <button type="button" class="close" data-modal-close>
       <svg width="30" height="30">
-      <use href="./images/icons.svg#close-x-icon"></use>
+      <use href="./images/icons.svg#icon-close-x-icon"></use>
       </svg>
     </button>
     <form name="form-registration" autocomplete="on">
@@ -428,24 +428,23 @@
       <div class="register-area">
         <div class="form-box">
           <label class="label-name" for="name"><p>Imie</p></label>
-            <svg width="12" height="12" class="personaldata-icons">
-              <use href="./images/icons.svg#person-black-icon"></use>
-            </svg>
+          <span class="icons-position">
             <input class="form-input" type="text" name="name" required>
-             </div>
+            <svg width="12" height="12" class="personaldata-icons">
+            <use href="./images/icons.svg#icon-person-black-icon"></use></svg>
+            </span>
+        </div>
         <div class="form-box">
           <label class="label-name" for="phone"><p>Telefon</p></label>
+          <input class="form-input" type="tel" name="phone-number" required>
             <svg width="13" height="13" class="personaldata-icons">
-              <use href="./images/icons.svg#phone-black-icon"></use>
-            </svg>
-            <input class="form-input" type="tel" name="phone-number" required>
+            <use href="./images/icons.svg#icon-phone-black-icon"></use></svg>
         </div>
         <div class="form-box">
           <label class="label-name" for="mail"><p>Email</p></label>
+          <input class="form-input" type="email" name="email" required>
             <svg width="12" height="12" class="personaldata-icons">
-              <use href="./images/icons.svg#email-black-icon"></use>
-            </svg>
-            <input class="form-input" type="email" name="email" required>
+            <use href="./images/icons.svg#icon-email-black-icon"></use></svg>
         </div>
         <label for="comment" class="label-name"><p>Komentarz</p></label>
           <textarea class="textarea-input" name="comment" placeholder="Wprowadź tekst"></textarea>
@@ -458,7 +457,7 @@
               </svg>
             </span> 
             <div>Oświadczam iz akceptuję
-              <a class="policy-text" href="">Regumain</a> i <a class="policy-text" href="">Politykę Prywatności.</a>
+              <a class="policy-text" href="">Regulamin</a> i <a class="policy-text" href="">Politykę Prywatności.</a>
             </div> 
           </label>
         </div>
