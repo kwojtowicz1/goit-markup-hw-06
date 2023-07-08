@@ -527,7 +527,7 @@ body {
     top: 221px;
     left: 536px;
     width: 528px;
-    height: 581px;
+    height: 620px;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0 ,0 ,0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     position: fixed;
@@ -562,10 +562,10 @@ body {
     background-color: #ffffff;
     position: relative;
     top: 8px;
-    left: 650px;
+    left: 488px;
     stroke: solid rgba(0, 0, 0, 0.1);
 }
-  .modal-heading {
+  .modal-title {
     font-family: Roboto;
     font-size: 20px;
     line-height: 100%;
@@ -573,13 +573,13 @@ body {
     margin-top: 40px;
     text-align: center;
   }
-  .container-label {
+  .label-box {
     border-color: #2196f3;
   }
 .modal-form {
-    margin-left: 165px;
+    margin-left: 5px;
 }
-  .text-label {
+  .label-text {
     font-family: Roboto;
     font-style: Regular;
     font-size: 12px;
@@ -601,9 +601,9 @@ body {
     align-items: center;
   }
   .icon-modal {
-    width: 50%;
+    width: 30px;
     height: 50%;
-    margin: 14px 0 14px 15px;
+    margin: 14px 0 14px 10px;
     max-width: fit-content;
   }
   .input-modal {
@@ -613,13 +613,13 @@ body {
     border-color: transparent;
     outline: none;
   }
-.container-label:focus-within .label-icon,
-.container-label:focus-within .modal-textarea:focus,
+.label-box:focus-within .label-icon,
+.label-box:focus-within .modal-textarea:focus,
 .modal-textarea:focus-visible {
   border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.container-label:focus-within .icon-modal {
+.label-box:focus-within .icon-modal {
   fill: #2196f3;
 }
 .textarea-input {
@@ -671,8 +671,9 @@ textarea::placeholder {
 }
 .registration-button {
     display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    align-items: flex-end;
 }
 .homepage-button {
     width: 200px;
